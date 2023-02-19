@@ -37,8 +37,6 @@ body {
     font-size: 16px;
     line-height: 1.5;
     text-decoration: none;
-
-    width: 1440px;
    }
 
 .logo {
@@ -58,6 +56,9 @@ body {
 
 .footer {
     background: var(--main-textcolor);
+    
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 .logo-footer {
@@ -70,19 +71,10 @@ body {
     text-decoration: none;
 }
 
-.logo-foot {
-    width: 264px;
-    
-    padding-top: 100px;
-    padding-bottom: 100px;
-}
-
 .description {
     color: var(--footer-color);
-}
-
-.descr {
-    margin-top: 8px;
+    width: 264px;
+    margin: 16px  0px 0px 0px;
 }
 
 span {
@@ -164,6 +156,8 @@ span {
 .hero {
     background: var(--main-textcolor);
     /*outline: 2px solid tomato;*/
+    padding: 188px 0px;
+    text-align: center;
 }
 
 .hero-title {
@@ -174,18 +168,10 @@ span {
 
     margin-top: 0;
     margin-bottom: 48px;
-
 }
 
-.hero-tit {
-    padding: 188px 328px;
-    text-align: center;
-}
-
-.principles {
+.section-principles {
     padding: 120px 0px;
-    display: flex;
-    flex-wrap: wrap;
 }
 
 .feature-list {
@@ -198,7 +184,7 @@ span {
     margin-left: var(--section-nav-gap) ;
 }
 
-.wawd {
+.section-wawd {
 
     padding-top: 0;
     padding-bottom: 120px;
@@ -214,19 +200,6 @@ span {
     margin-left: var(--section-nav-gap);
     
     }
-
-    .our-team {
-        padding-top: 120px;
-        padding-bottom: 120px;
-    }
-
-/*.team-card {
-    border-radius: 0px 0px 4px 4px;
-    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-    background: #FFFFFF;
-    text-align: center;
-
-}*/
 
 .section-title {
     color: var(--main-textcolor);
@@ -249,12 +222,14 @@ span {
    }
 
 .content {
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: var(--section-nav-gap);
 
+    color: var(--second-textcolor);
+    
     margin-top: 8px;
     margin-bottom: 0;
 
@@ -305,6 +280,8 @@ span {
 
 .section-team {
     background-color: var(--logostudio-color);
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 
 .link {
@@ -346,7 +323,6 @@ span {
     flex-basis: calc(100% / 3 - var(--section-nav-gap));
     margin-left: var(--section-nav-gap);
     margin-top: calc(2 * var(--section-nav-gap) ) ;
-
 }
 
 .img {
@@ -373,7 +349,9 @@ span {
     padding-left: 16px;
     border-radius: 0px 0px 4px 4px;
     background: #FFFFFF;
-    border: 1px solid #E7E9FC;
+    border-right:  1px solid #E7E9FC;
+    border-bottom:  1px solid #E7E9FC;
+    border-left:  1px solid #E7E9FC;
 
     width: 360px;
 }
