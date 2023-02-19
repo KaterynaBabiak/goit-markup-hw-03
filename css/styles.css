@@ -303,15 +303,18 @@ span {
     margin-top: calc(3 * var(--section-nav-gap) ) ;  
 }
 
+.section-portfolio {
+    padding-top: 96px;
+    padding-bottom: 120px;
+}
+
 .button-nav {
     display: flex;
     justify-content: center;
-    padding-top: 96px;
-    padding-bottom: 72px;
+    margin-bottom: 72px;
 }
 
 .section-nav {
-    padding: 0px 0px 120px;
     margin: 0;
     display: flex;
     flex-wrap: wrap;
